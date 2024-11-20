@@ -97,10 +97,10 @@ public class AssignmentOne {
         Appointment Appointment2 = new Appointment("Tom","13033334444", "Leg pain", "10:00", "Mr Wang");
         myAssignmentOne.createAppointment(Appointment2);
         //create Appointment 3
-        Appointment Appointment3 = new Appointment("Han","15711112222", "catagma", "12:00", "Mr Liu");
+        Appointment Appointment3 = new Appointment("Han","15711112222", "catagma", "8:00", "Mr Liu");
         myAssignmentOne.createAppointment(Appointment3);
         //create Appointment 4
-        Appointment Appointment4 = new Appointment("XiaoHong","15700001234", "Leg pain", "09:00", "Mr Han");
+        Appointment Appointment4 = new Appointment("XiaoHong","15700001234", "Leg pain", "14:30", "Mr Han");
         myAssignmentOne.createAppointment(Appointment4);
         // print Appointments first
         myAssignmentOne.printExistingAppointments();
